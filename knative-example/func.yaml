@@ -1,0 +1,11 @@
+specVersion: 0.35.0
+name: example
+runtime: node
+registry: docker.io/unfor19
+image: docker.io/unfor19/knative-example:latest
+imageDigest: sha256:bd5ebf39e8ed6ed40adf40f9648229224734c99eff2ee8b248feba6d1b235edc
+created: 2023-08-11T12:44:36.756426+03:00
+build:
+  builder: pack
+deploy:
+  namespace: default
